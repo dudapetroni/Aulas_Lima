@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Página Inicial</title>
+
+<style>
+    /* Seletor universal*/
+    * {
+        margin: 0;
+    }
+    /*Seletor de tipo, aplicando uma tag*/
+    p{
+        color: hsl(258, 45%, 34%);
+    }
+    /*Seletor de classe*/
+    .paragrafo{
+        background-color: #8194e6;
+        /* margin: 10px; - Aplica em todas as margens*/
+        /*margin: 10px 40px; - Aplica nas margens 'laterais' e 'superior e inferior'*/
+        /*margin: 10px 20px 30px 40px aplica margem top, right, bottom, left*/
+        margin-left: 10px;
+        /*alinhar os elementos no centro*/
+        text-align: center;
+    }
+    .imagem{
+        width: 150px;
+        height: 100px;
+    }
+</style>
+
+</head>
+
+<!-- Aplicando css inline cor de fundo -->
+<body style="background-color: #c0d5ff;">
+    Olá mundo!
+    Bem-Vindo 😊
+    <!-- Títulos de nível 1 ao 6 -->
+    <h1>Desenvolvimento de sistemas</h1>
+    <h1>Cabeçalho de nivel 1</h1>
+    <h2>Cabeçalho de nivel 2</h2>
+    <h3>Cabeçalho de nivel 3</h3>
+    <h4>Cabeçalho de nivel 4</h4>
+    <h5>Cabeçalho de nivel 5</h5>
+    <h6>Cabeçalho de nivel 6</h6>
+    <!-- Insere uma linha horizontal -->
+     <hr>
+    <!--A tag 'p' insere um novo parágrafo-->
+    <p>
+        Este é um parágrafo
+    </p>
+    <!-- A tag br quebra uma linha, ela é uma tag sem fechamento-->
+    <p> Este é um texto muito grande,
+        que eu desejo <br> quebrar a linha</p>
+    <!--Inserindo um link para abrir uma página-->
+    <a href="https://www.sesisp.org.br">"Página do SESI"</a>
+
+    <!--Link com atributo para abrir em outra janela-->
+    <a href="https://www.sp.senai.br/" target="_self">Página do SENAI</a>
+
+
+    <!-- Aplicando link em uma imagem -->
+    <a href="https://www.sesisp.org.br"><img src="IMG/logo-sesi.png" alt=""></a>
+
+    <p style="font-size: xx-large;">Vídeos do Youtube</p>
+
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/8vbRj3qcLig" title="Hello Kitty and Friends - Supercute Adventures | 5ª TEMP. COMPLETA - PARTE 1 | 27 min de diversão" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Aplicando css interno -->
+<p class="paragrafo">
+
+    <img class="imagem"src="IMG/hello-kitty-hello-kitty-dancing (1).gif" alt="">
+
+
+    <!-- Listas -->
+    
+     <!-- Listas ordenadas -->
+      <br>
+      <h4>Lista Ordenada por números</h4>
+      <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola no horário</li>
+      </ol>
+
+      <br>
+
+    <!-- Lista Ordenada com número romano minúsculo -->
+    <h4>Lista Ordenada por números romanos minúsculos</h4>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola no horário</li>
+    </ol>
+
+    <br>
+
+    <!-- Listas ordenadas com letras maiúsculas -->
+    <h4>Lista Ordenada por letras maiúsculas </h4>
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a escola no horário</li>
+    </ol><br>
+
+    <hr><br>
+
+    <!-- Lista não ordenada -->
+    <h4>Lista não ordenada</h4>
+     <ul>
+        <li>Carvão</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+     </ul>
+
+     <br>
+
+    <!-- Lista dentro da lista -->
+     <h4>Lista dentro da lista</h4>
+     <ul>
+        <li>Estudo
+            <ul>
+                <li>Caneta</li>
+                <li>Caderno</li>
+                <li>Livro</li>
+            </ul>
+        </li>
+     </ul>
+
+     <br>
+
+    <!-- Lista Predefinida -->
+     <h4>Lista predefinida</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do site</dd>
+        <dt>Java Script</dt>
+        <dd> Linguagem de programação</dd>
+    </dl>
+</p>
+
+</body>
+</html>
