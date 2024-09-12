@@ -1,0 +1,43 @@
+
+    /* Seletor universal*/
+    * {
+        margin: 0;
+    }
+    /*Seletor de tipo, aplicando uma tag*/
+    p{
+        color: hsl(258, 45%, 34%);
+    }
+    /*Seletor de classe*/
+    .paragrafo{
+        background-color: #8194e6;
+        /* margin: 10px; - Aplica em todas as margens*/
+        /*margin: 10px 40px; - Aplica nas margens 'laterais' e 'superior e inferior'*/
+        /*margin: 10px 20px 30px 40px aplica margem top, right, bottom, left*/
+        margin-left: 10px;
+        /*alinhar os elementos no centro*/
+        text-align: center;
+    }
+    .imagem{
+        width: 150px;
+        height: 100px;
+    }
+/* Remover os espaços entre as bordas */
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 50px;
+    }
+
+    th {
+        background-color: hsl(308, 74%, 63%);
+        text-align: center;
+    } 
+
+    td,th {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    
