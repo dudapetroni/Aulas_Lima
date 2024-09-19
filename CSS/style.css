@@ -1,43 +1,111 @@
+/* Seletor Universal*/
+*{
+    margin: 20px;
+}
 
-    /* Seletor universal*/
-    * {
-        margin: 0;
-    }
-    /*Seletor de tipo, aplicando uma tag*/
-    p{
-        color: hsl(258, 45%, 34%);
-    }
-    /*Seletor de classe*/
-    .paragrafo{
-        background-color: #8194e6;
-        /* margin: 10px; - Aplica em todas as margens*/
-        /*margin: 10px 40px; - Aplica nas margens 'laterais' e 'superior e inferior'*/
-        /*margin: 10px 20px 30px 40px aplica margem top, right, bottom, left*/
-        margin-left: 10px;
-        /*alinhar os elementos no centro*/
-        text-align: center;
-    }
-    .imagem{
-        width: 150px;
-        height: 100px;
-    }
-/* Remover os espaços entre as bordas */
+ /*Seletor de tipo,aplicando em um tag*/
+p{
+    color: rgb(0, 0, 0);
+}
 
-    table {
-        border-collapse: collapse;
-        width: 80%;
-        margin: 50px;
-    }
+ /*Seletor de classe*/
+ .paragrafo{
+    background-color: rgb(0, 0, 0);
+    /*margin: 10px; - Aplica em todas as margens*/
+    /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'superior e inferior' */
+    /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+    /*margin-left: 10px;*/
+    /*alinha elementos ao centro*/
+    text-align:center;
 
-    th {
-        background-color: hsl(308, 74%, 63%);
-        text-align: center;
-    } 
+}
+.imagem{
+    width: 100px;
+    height: 100px;
+}
+body{
+background-color: rgb(0, 0, 0);
+}   
+.tabela{
+/*Remover os espaços entre as borbas */
+border-collapse: collapse;
+width: 100%;
+}
+.cabecalho, .celula {
+/* Configura o formato da borda Eepessura, tipo e cor */
+border: 2px solid #ddd;
+/* Define o espamento interno */
+padding: 5px;
+text-align: left;
+color: black;
+background-color:hotpink;
+}
+.celula2 {
+background-color: rgba(50, 48, 46, 0.19);
+}
+.formulario{
+background-color:lightskyblue;
+}
+label{
+background-color:cornflowerblue;
+}
+.input-nome{
+border: none;
+border-radius:5px;
+margin-left: 50px;
+opacity: 70%;
+}
 
-    td,th {
-        border: 1px solid black;
-        padding: 8px;
-        text-align: left;
-    }
+.botao {
+    border-radius: 5px;
+    padding: 6px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    text-shadow: -10px 12px 4px rgba(240, 123, 255, 0.842);
+}
+
+.checar {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+    appearance: none;
+    background-color: #ddd;
+    border: 2px solid #87b3ff;
+    border-radius: 5px;
+}
+
+.checar:checked {
+    background-color: rgb(130, 159, 255);
+}
+
+.email {
+    width: 300px;
+    padding: 5px 5px;
+    margin-left: 5px;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+.selecao {
+    appearance: none;
+    width: 300px;
+    padding: 4px;
+    font-size: 16px;
+    color: rgb(38, 42, 52);
+    background-color: #8fa9ff;
+    border-radius: 5px;;
+    border: 2px solid rgb(103, 129, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    /*sombra no imput*/
+    box-shadow: 0 2px 5px rgba(123, 147, 255, 0.842);
+}
+
+.radio:checked{
+    background-color: #8fa9ff;
+    border-color: antiquewhite;
+} 
+
+
 
     
