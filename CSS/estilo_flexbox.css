@@ -1,0 +1,114 @@
+.div1{
+    background-color: rgb(149, 192, 255);
+}
+.div2{
+    background-color: rgb(255, 168, 252);
+}
+.div3{
+    background-color: rgb(189, 255, 156);
+}
+
+.container{
+    border:  2px solid  black;
+    /* Limita o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+     /* Define o tamanho do elemento e o espaço entre eles */
+    display: flex;
+   
+}
+
+.item{
+    background: rgb(255, 151, 151);
+    margin: 5px;
+    text-align: center;
+    color: rgb(182, 221, 255);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    height: 250px;
+    width: 250px;
+}
+
+.flex > div > img {
+    height: 250px;
+    width: 250px;
+}
+
+.div-coluna {
+    height: 350px;
+    width: 350px;
+    background-color: rgb(255, 171, 254);
+}
+
+.sessaum {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2ff9c;
+    gap: 10px;
+    /* Quebra os elementos para outra linha caso não haja espaço o suficiente na mesma */
+    flex-wrap: wrap;
+}
+
+.sessaum-imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.alinhar-esquerda {
+    display: flex;
+    flex-direction: row;
+    /* Alinha o elemento ao início */
+    justify-content: flex-start;
+}
+
+.alinhar-centro {
+    display: flex;
+    flex-direction: row;
+    /* Alinha o elemento ao centro */
+    justify-content: center;
+}
+
+.alinhar-direita {
+    display: flex;
+    flex-direction: row;
+    /* Alinha o elemento ao fim */
+    justify-content: flex-end;
+}
+
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    /* Aloca os elementos nas pontas e ajusta os elementos do centro */
+    justify-content: space-between;
+}
+
+.alinhar-redor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alinhar-coluna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* Distribui os itens com o espaço ao redor deles  */
+    align-items: center;
+    width: 100%;
+    background-color: rgb(189, 255, 156);
+}
+.alinhar-itens-centro {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+}
+

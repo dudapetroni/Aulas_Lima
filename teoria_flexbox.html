@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./css/estilo_flexbox.css">
+</head>
+<body>
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+        <h2>Londres</h2>
+        <p style="background-color: rgb(255, 168, 252);">Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+        <label for="" class="div2">Texto</label>
+        <h1 class="div2">Texto H1</h1>
+        <label for="" class="div2">Texto2</label>
+    </div>
+    <div class="div2">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+    <div class="div3">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhoes de Habitantes</p>
+    </div>
+
+    <h1>Trabalhando com Flexbox</h1>
+    <p>Utilizamos flexbox para posicionar os elementos de uma linha ou coluna
+        de forma dinâmica
+    </p>
+    <p>Por padrão, os elementos são exibidos em bloco (block)</p>
+    <section class="container">
+        <div class="item"><img src="../HTML/IMG/Hello-Kitty-with-Apples.png">Item 1</div>
+        <div class="item"><img src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp"> Item 2</div>
+        <div class="item"><img src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"> Item 3</div>
+        <div class="item"><img src="../HTML/IMG/images.jpg"> Item 4</div>
+    </section>
+
+    </p>
+    <p>Flex Direction - Alterando a direção do elemento</p>
+    <section class="flex">
+    <div class="div-coluna">
+        <img src="../HTML/IMG/Hello-Kitty-with-Apples.png">
+        <p>Hello Kitty</p>
+    </div>
+        <div class="div-coluna"><img src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp"></div>
+        <div class="div-coluna"><img src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"></div>
+        <div class="div-coluna"><img src="../HTML/IMG/images.jpg"></div>
+    </section>
+
+    <p> Flex Wrap - Faz a quebra do elemento 
+        quando não há mais espaço na tela 
+    </p>
+
+    <section class="sessaum"> 
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">       <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/elegant-aesthetic-minimalist-gypsophila-flower-pastel-pink-background-holiday-floral-greeting-card-template-elegant-aesthetic-270515624.webp" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/images.jpg" alt="">
+    </section>
+    
+    <p> Justify - Alinha os itens Flex no 
+        container de acordo com a direção
+    </p>
+
+    <section class="alinhar-esqueda"> 
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+    </section>
+    <section class="alinhar-centro"> 
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+    </section>
+    <section class="alinhar-direita"> 
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+    </section>
+
+    <p>Alinhar os elementos nos cantos e ajusta o centro </p>
+        <section class="alinhar-entre"> 
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        </section>
+
+        <section class="alinhar-entre"> 
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        </section>
+
+        <section class="alinhar-entre"> 
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        </section>
+
+        <p>Alinhar os elementos a partir do espaço e ao redor</p>
+        <section class="alinhar-redor"> 
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        </section>
+
+        <section class="alinhar-coluna"> 
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+            <img class="sessaum-imagem" src="../HTML/IMG/Hello-Kitty-with-Apples.png" alt="">
+        </section>
+
+        <selection class="alinhar-itens-centro">
+            <div>itens</div>
+            <div>Item 1</div>
+            <div>Item 2</div>
+            <div>Item 3</div>
+            <div>Item 4</div>
+        </selection>
+
+</body>
+</html>
