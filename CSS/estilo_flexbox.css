@@ -1,11 +1,11 @@
 .div1{
-    background-color: rgb(149, 192, 255);
+    background-color: rgb(238, 127, 197);
 }
 .div2{
     background-color: rgb(255, 168, 252);
 }
 .div3{
-    background-color: rgb(189, 255, 156);
+    background-color: rgb(231, 124, 204);
 }
 
 .container{
@@ -22,7 +22,7 @@
     background: rgb(255, 151, 151);
     margin: 5px;
     text-align: center;
-    color: rgb(182, 221, 255);
+    color: rgb(255, 207, 245);
 }
 
 .flex {
@@ -43,13 +43,13 @@
 .div-coluna {
     height: 350px;
     width: 350px;
-    background-color: rgb(255, 171, 254);
+    background-color: rgb(224, 131, 195);
 }
 
 .sessaum {
     display: flex;
     flex-direction: row;
-    background-color: #f2ff9c;
+    background-color: #ffb9fc;
     gap: 10px;
     /* Quebra os elementos para outra linha caso não haja espaço o suficiente na mesma */
     flex-wrap: wrap;
@@ -101,7 +101,7 @@
     /* Distribui os itens com o espaço ao redor deles  */
     align-items: center;
     width: 100%;
-    background-color: rgb(189, 255, 156);
+    background-color: rgb(255, 156, 252);
 }
 .alinhar-itens-centro {
     display: flex;
@@ -112,3 +112,89 @@
     justify-content: space-between;
 }
 
+.container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto; /*Adiciona scroll na horizontal*/
+    gap: 0.4rem;
+    height: 600px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    flex: 0 0 auto; /*Evita que os cards encolham ou se ajustem automaticamente*/
+    border: 1px solid hsl(310, 10%, 48%);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    font-family: "Dancing Script", cursive;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(255, 139, 249, 0.6);
+}
+
+.cabessalho-card {
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo-card {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #7e5a7d;
+}
+
+.subtitulo-card {
+    margin: 0;
+    font-size: 1rem;
+    color: #ca85c7;
+}
+
+.imagem-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-card > img {
+    max-width: 100%; /* Mantém o limite máximo do tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.imagem-card > figcaption {
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555;
+}
+
+.conteudo-crad {
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.rodape-card {
+    background-color: hotpink;
+    text-align: center;
+
+}
+
+.botao-card {
+    text-decoration: none; /* Remove a decoração de linha */
+    color: #f5f5f5;
+    background-color:darkmagenta;
+    border-radius: 4px;
+    padding: 5px 6px;
+    display: inline-block;
+}
+
+.botao-card:hover {
+    background-color:rgb(119, 119, 119)
+}
