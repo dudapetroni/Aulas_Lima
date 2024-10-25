@@ -1,0 +1,54 @@
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+.box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.categorias {
+    font-size: 15px;
+    font-family: "Sodo Sans SemiBold";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    gap: 1rem;
+    padding: 10px;
+    margin-left: 30px;
+    align-items: center;
+}
+.categorias2 {
+    font-size: 15px;
+    font-family: "Sodo Sans SemiBold";
+    text-align: end;
+    
+}
+
+
+.imagem {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-self: center;
+    
+}
+.imagem2 {
+    height: 50px;
+    width: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Sodo Sans SemiBold";
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+.imagemconteudo {
+    width: 100%;
+}
