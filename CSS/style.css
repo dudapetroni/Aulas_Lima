@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital@1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 /* Seletor Universal*/
 *{
     margin: 20px;
@@ -106,8 +110,23 @@ opacity: 70%;
     border-color: antiquewhite;
 } 
 
+.logofestival {
+    height: 60px;
+    width: 75px;
+}
 
+.arruma-titulo {
+    margin-left: 555px;
+    color: rgb(177, 98, 1);
+    margin-bottom: 80px;
+    margin-top: 45px;
+}
 
+.nome-cantor{
+    margin-left: 35px;
+    font-family: Josefin Sans;
+}
 
-
-    
+.margem-top-cards {
+    margin-top: 55px;
+}    
